@@ -257,8 +257,8 @@ abstract class StringHelper
      *
      * Case-insensitive version of str_replace()
      *
-     * @param   string|array          $search   String to search
-     * @param   string|array          $replace  Existing string to replace
+     * @param   string|string[]       $search   String to search
+     * @param   string|string[]       $replace  Existing string to replace
      * @param   string                $str      New string to replace with
      * @param   integer|null|boolean  $count    Optional count value to be passed by referene
      *
